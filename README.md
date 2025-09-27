@@ -148,7 +148,7 @@ VizFlow/
 
    Frontend will run on `http://localhost:3000`
 
-## 📊 API Endpoints
+##  API Endpoints
 
 ### Upload APIs
 - `POST /api/upload/cleaned` - Upload processed customer data
