@@ -2,7 +2,7 @@
 
 VizFlow is a comprehensive full-stack application designed for data processing, validation, and visualization. It handles customer data from multiple formats (CSV, Excel, XML, JSON, PDF) and provides real-time insights through interactive dashboards.
 
-## 🚀 Features
+##  Features
 
 - **Multi-format Data Processing**: Support for CSV, Excel, XML, JSON, and PDF files
 - **Real-time Validation**: Instant data validation with detailed error reporting
@@ -12,7 +12,7 @@ VizFlow is a comprehensive full-stack application designed for data processing, 
 - **Export Capabilities**: Download data in CSV, Excel, or JSON formats
 - **Team Collaboration**: Multi-user support with role-based processing
 
-## 🏗 Architecture
+##  Architecture
 
 ### Backend (Node.js + Express)
 - **Database**: MongoDB Atlas for scalable data storage
@@ -28,7 +28,7 @@ VizFlow is a comprehensive full-stack application designed for data processing, 
 - **Error Management**: Detailed error logs with status tracking
 - **Responsive Design**: Mobile-first responsive design with Tailwind CSS
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 VizFlow/
@@ -175,7 +175,7 @@ VizFlow/
 - `GET /api/download/summary` - Download summary report
 - `GET /api/download/formats` - Get available export formats
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### 1. Upload Customer Data
 ```javascript
@@ -235,7 +235,7 @@ const blob = await downloadResponse.blob();
 // Handle file download...
 ```
 
-## 🎨 Frontend Components
+##  Frontend Components
 
 ### Dashboard Features
 - **Summary Cards**: Total records, errors, success rate, resolution rate
@@ -257,7 +257,7 @@ const blob = await downloadResponse.blob();
 - **Bulk Operations**: Mass status updates and exports
 - **Visual Indicators**: Color-coded error types and status icons
 
-## 🔧 Customization
+##  Customization
 
 ### Adding New Data Fields
 1. Update MongoDB schemas in `backend/models/`
@@ -281,7 +281,7 @@ errorType: {
 ### Extending Export Formats
 Add new export functions in `backend/utils/exportData.js` and update the download routes.
 
-## 🚀 Deployment
+##  Deployment
 
 ### Backend Deployment
 1. Set up MongoDB Atlas cluster
@@ -311,7 +311,7 @@ CLIENT_URL=https://your-frontend-domain.com
 - **Input Validation**: Joi schema validation for all inputs
 - **MongoDB Injection Protection**: Mongoose built-in protection
 
-## 📈 Performance Optimizations
+##  Performance Optimizations
 
 - **Database Indexing**: Optimized indexes for fast queries
 - **Pagination**: Efficient data loading with limits
@@ -319,7 +319,7 @@ CLIENT_URL=https://your-frontend-domain.com
 - **Lazy Loading**: React components loaded on demand
 - **Bundle Optimization**: Code splitting and minification
 
-## 🧪 Testing
+##  Testing
 
 ### Backend Testing
 ```bash
@@ -333,7 +333,7 @@ cd frontend
 npm test
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/AmazingFeature`
@@ -341,18 +341,18 @@ npm test
 4. Push to the branch: `git push origin feature/AmazingFeature`
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+##  Support
 
 If you encounter any issues or have questions:
 1. Check the existing issues on GitHub
 2. Create a new issue with detailed information
 3. Include error logs and steps to reproduce
 
-## 🔄 Version History
+##  Version History
 
 - **v1.0.0** - Initial release with core functionality
   - Data upload and validation
@@ -361,5 +361,3 @@ If you encounter any issues or have questions:
   - Multi-format export capabilities
 
 ---
-
-**Built with ❤️ for efficient data processing and visualization**
